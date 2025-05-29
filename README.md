@@ -133,6 +133,12 @@ User can also override following functions as they are defined with _weak_ attri
 > cmake -G "NMake Makefiles" -DPICO_PLATFORM=rp2350 ..  ; (for Raspberry Pi Pico 2)
 > nmake
 ```
+* Alternative Build using VS code + Raspberry Pi Pico module
+```
+From the Raspberry Pi Pico Module select 'Import Project'
+Browse to pico_fatfs\tests\<test_default  or  test_variation1>
+Then from CMake Tools Module use Configure and after Build.
+```
 * Put "*.uf2" on RPI-RP2 or RP2350 drive
 ### Linux
 * Build is confirmed with [pico-sdk-dev-docker:sdk-2.1.1-1.0.0]( https://hub.docker.com/r/elehobica/pico-sdk-dev-docker)
